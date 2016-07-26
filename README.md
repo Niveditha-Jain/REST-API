@@ -4,7 +4,7 @@ You will be building a simple RESTful service to manage personal perferences tha
 No data persistence to a permanent storage is required at the point but you need to store the application state in memory only.
 APIs
 
-1.	Create new user profile.
+Create new user profile.
 URL: POST /profile
 
 Request
@@ -38,7 +38,8 @@ HTTP/1.1 201 Created
 Date: Mon, 29 Feb 2016 19:55:15 GMT
 ....
 
-2.	Get user profile.
+Get user profile.
+
 URL: GET /profile/{email}
 
 Response
@@ -71,7 +72,7 @@ Date: Mon, 29 Feb 2016 19:55:15 GMT
     }
 }
 
-3.	Update existing user profile.
+Update existing user profile.
 URL: PUT /profile/{email}
 
 Request
@@ -87,7 +88,8 @@ HTTP/1.1 204 No Content
 Date: Mon, 29 Feb 2016 19:55:15 GMT
 ....
 
-4.	Delete user profile.
+
+Delete user profile.
 URL: DELETE /profile/{email}
 
 Response
