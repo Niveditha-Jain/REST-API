@@ -1,6 +1,6 @@
 # REST-API
 
-You will be building a simple RESTful service to manage personal perferences that can be shared with service providers like travel agencies so that they can provide personalization in their services.
+Build a simple RESTful service to manage personal perferences that can be shared with service providers like travel agencies so that they can provide personalization in their services.
 No data persistence to a permanent storage is required at the point but you need to store the application state in memory only.
 APIs
 
