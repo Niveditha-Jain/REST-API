@@ -95,3 +95,17 @@ HTTP/1.1 204 No Content
 Date: Mon, 29 Feb 2016 19:55:15 GMT
 ....
 
+
+=========================================
+
+### Install dependency ([Routes])
+
+go get github.com/drone/routes
+
+
+### Run the app
+
+go run app.go
+
+
+
